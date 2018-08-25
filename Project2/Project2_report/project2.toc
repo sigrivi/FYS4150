@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Abstract}{1}
+\contentsline {section}{\numberline {2}Introduction}{1}
+\contentsline {section}{\numberline {3}Method}{2}
+\contentsline {subsection}{\numberline {3.1}Scaling and discretization of the Scrodinger equation}{2}
+\contentsline {subsection}{\numberline {3.2}Jacobi's method}{3}
+\contentsline {subsection}{\numberline {3.3}Scaling an discretization in the two particle case}{5}
+\contentsline {section}{\numberline {4}Results and discussion}{6}
+\contentsline {subsection}{\numberline {4.1}The one particle case}{6}
+\contentsline {subsection}{\numberline {4.2}The two particle case}{8}
+\contentsline {section}{\numberline {5}Conclusion}{8}
