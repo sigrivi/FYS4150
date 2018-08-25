@@ -1,0 +1,55 @@
+project3c.py ----------------------------------------------------------------
+To make the plot in figure 2 in the report:
+plot_difference(20)
+
+The output when you run this program should be:
+10 0.00034 0.00078 2.2725381414701804
+20 0.00055 0.00122 2.213327563825184
+30 0.00079 0.00153 1.931180199215213
+40 0.00131 0.00272 2.0795268425841673
+50 0.00122 0.00241 1.9798394989234684
+60 0.00145 0.00288 1.9786710418375717
+70 0.00221 0.00336 1.520319068664439
+80 0.00210 0.00492 2.338620142743854
+90 0.00216 0.00440 2.0410126022551403
+100 0.00236 0.00467 1.978878221323901
+110 0.00266 0.00520 1.9562410329985653
+120 0.00363 0.00737 2.0319295709874514
+130 0.00310 0.00638 2.0573449150588052
+140 0.00424 0.00933 2.1982923267048644
+150 0.00375 0.00925 2.4646625143002416
+160 0.00393 0.00781 1.9840038778477944
+170 0.00500 0.00931 1.862864772077055
+180 0.00439 0.00863 1.964436963839722
+190 0.00584 0.01017 1.7423834027607612
+
+Which is the run time for different N(1. column) for Euler Cromer(2.column) and Vleocity Verlet(3. column). 4. clumn is the ratio. 
+
+project3d.py ----------------------------------------------------------------
+To make the plot in figure 4 in the report:
+velocities = [2,2.5,2**1.5, 3, 3.5]
+InitialVelocity(velocities, 1/100, 1)
+
+To make the plot in figure 5
+GravitationalConstant([3,3.5, 4], 1/100, 5)
+
+The output when you run this program should be:
+-5.92176264065e-05
+-2.59077115529e-05
+0.0
+1.48044066016e-05
+6.29187280569e-05
+
+
+project3f.py-----------------------------------------------------------------
+To make the plot in figure 7 of the report: 
+x,y = solve(Planets, "VelocityVerlet", 1/100, 20)
+plot(Planets, x,y,10) 
+
+The output when you run this code should be: 
+
+Mercury -8.6076486456e-06 Earth -6.10260298887e-05 Neptune -3.37865463272e-05
+Mercury -8.58279406039e-06 Earth -6.10736871486e-05 Neptune -3.37865627211e-05
+51.010194063186646
+
+Which is the total energy of Mercury, Earth, and Neptune before and after, and the run time of the code(this may not be exactly the same). 
